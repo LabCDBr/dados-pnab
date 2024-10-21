@@ -24,14 +24,14 @@ A criação desta arquitetura segue etapas de análise de requisitos, modelagem 
 
 ![**Figura 1: Etapas de análise de requisititos, modelagem e visualização de dados**](https://lh3.googleusercontent.com/pw/AP1GczNNmAcA4L8nC8bJ0z8cjO1BMhjp82_5b7XweEidL2qWxw3dbG_5RdS8EuK-DomR0F-IJOH7sLNMoaONS4t6MJYpis2qDRDRhl4D9hNu_JkFs0Q7awNvdOVhwTKVbvJnOEmcZ1Dwiji1PdYWJJCOvFSk=w2560-h940-s-no-gm?authuser=0)
 
-### 2.0 Como este repositório está organizado?
-####  2.1 Fluxo da Informação relacionada à PNAB
-##### 2.1.1 Análise do ecossistema de soluções digitais, com foco no Mapas Culturais (extensão daquele doc Análise da taxonomia)
-##### 2.1.2 Análise do fluxo de execução orçamentária da PNAB, mapeando integrações com TranfereGov e com o Plano Anual de Aplicação de Recursos - PAAR
+### 2 Como este repositório está organizado?
+####  [2.1 Fluxo da Informação relacionada à PNAB baseado em uma abordagem Top-Down](2_1_Fluxo_Informacao_PNAB.md)
+##### [2.1.1 Análise do ecossistema de soluções digitais, com foco no Mapas Culturais](2_1_1_Analise_Ecossistema.md)
+##### [2.1.2 Análise do fluxo de execução orçamentária da PNAB, mapeando integrações com TranfereGov e com o Plano Anual de Aplicação de Recursos - PAAR](2_1_2_TransfereGov_PAAR.md)
 ##### 2.1.3 Proposta e formulação de uma atualização Mapas para a PNAB
 ####  2.2 Modelagem Entidade Relacionamento - MER
 ##### 2.2.1 O que é um MER?
 ##### 2.2.2 O MER PNAB
 ####  2.3 Relação das Entidades e seus Dicionários de dados
 ####  2.4 Análise exploratória utilizando Painéis de Dados
-### 3.0 Referencial normativo/legal utilizado
+### 3 Referencial normativo/legal utilizado

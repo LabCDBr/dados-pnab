@@ -1,4 +1,4 @@
-# Conceituação do fluxo da informação baseado em uma abordagem Top-Down
+# 2.1 Fluxo da Informação relacionada à PNAB baseado em uma abordagem Top-Down
 <div>
 <p>
 A <b>PNAB</b> é uma política federalizada que repassa recursos do Governo Federal para estados e municípios, promovendo o fomento à cultura em todo o Brasil. A execução da política envolve a transferência de recursos para agentes culturais, como artistas, músicos e pesquisadores. No entanto, a diversidade de soluções digitais utilizadas por diferentes estados e municípios (variando de sistemas robustos a processos manuais em papel) dificulta a análise unificada e a avaliação dos impactos da política.
