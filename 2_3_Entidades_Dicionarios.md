@@ -19,7 +19,7 @@ A figura a seguir ilustra a estrutura proposta para cada dicionário PNAB, que p
 
 # Lista de Dicionários do padrão de dados PNAB
 
-- [Pessoas]() e [Organizações]() - Agentes Culturais e entes federados estão contidos nesta definição;
+- [Pessoas](2_3_1_Pessoas) e [Organizações]() - Agentes Culturais e entes federados estão contidos nesta definição;
 - [Iniciativas]() - É importante destacar que existem subtipos desta entidade, como Programas PNAB, Programa de Fomento, Projeto Fomentado, dentre outros);
 - [Oportunidades]()
 - [Inscrição](), [Plano de Trabalho](), [Metas](), [Atividades]() e [Entregas]() - Entidades relacionadas às Ações Culturais submetidas via inscrição ou em execução;
