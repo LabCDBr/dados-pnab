@@ -28,10 +28,10 @@ A criação desta arquitetura segue etapas de análise de requisitos, modelagem 
 ####  [2.1 Fluxo da Informação relacionada à PNAB baseado em uma abordagem Top-Down](2_1_Fluxo_Informacao_PNAB.md)
 ##### [2.1.1 Análise do ecossistema de soluções digitais, com foco no Mapas Culturais](2_1_1_Analise_Ecossistema.md)
 ##### [2.1.2 Análise do fluxo de execução orçamentária da PNAB, mapeando integrações com TranfereGov e com o Plano Anual de Aplicação de Recursos - PAAR](2_1_2_TransfereGov_PAAR.md)
-##### 2.1.3 Proposta e formulação de uma atualização Mapas para a PNAB
-####  2.2 Modelagem Entidade Relacionamento - MER
-##### 2.2.1 O que é um MER?
-##### 2.2.2 O MER PNAB
-####  2.3 Relação das Entidades e seus Dicionários de dados
-####  2.4 Análise exploratória utilizando Painéis de Dados
+##### [2.1.3 Proposta e formulação de uma atualização Mapas para a PNAB](2_1_3_Proposta_PNAB_Mapas.md)
+####  [2.2 Modelagem Entidade Relacionamento - MER]()
+##### [2.2.1 O que é um MER?](2_2_1_MER_Definicao.md)
+##### [2.2.2 O MER PNAB](2_2_2_MER_Entidades.md)
+####  [2.3 Relação das Entidades e seus Dicionários de dados](2_3_Entidades_Dicionarios.md)
+####  [2.4 Análise exploratória utilizando Painéis de Dados](2_4_Analise_paineis_dados.md)
 ### 3 Referencial normativo/legal utilizado
