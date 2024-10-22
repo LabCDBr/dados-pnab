@@ -8,7 +8,6 @@ Os atributos sociodemográficos associados a essas pessoas permitem avaliar o im
 - Quais os territórios mais beneficiados pela política?
 - Como se distribuem os agentes culturais em termos de raça, gênero e território?
 - Qual a participação de comunidades tradicionais e quilombolas no acesso às políticas?
-- Qual a relação entre o perfil dos beneficiários e o tipo de ação cultural?
 
 Essas perguntas poderão ser respondidas com base na estrutura de dados fornecida pela entidade Pessoa.
 
