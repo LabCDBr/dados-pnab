@@ -6,19 +6,23 @@
 ## Apresentação
 
 
-A **Política Nacional Aldir Blanc de Fomento à Cultura (PNAB)** é uma política federativa que repassa recursos do Governo Federal para estados e municípios, promovendo o fomento à cultura em todo o Brasil. O apoio financeiro é direcionado a agentes culturais, como artistas, músicos e pesquisadores, mas a diversidade de soluções digitais utilizadas pelos entes federados – desde sistemas robustos até processos manuais – torna desafiadora a avaliação unificada e transparente dos impactos da política.
+A **Política Nacional Aldir Blanc de Fomento à Cultura (PNAB)**, Lei nº 14.399, de 8 de julho de 2022, é uma política pública que visa promover o fomento à cultura em todo o Brasil. A PNAB se efetiva através de  repasse de recursos do Governo Federal para estados e municípios, que, por sua vez, executam programas, projetos, atividades e ações com objetivo de dinamizar e fortalecer o ecossistema cultural e ampliar o acesso da população à cultura. A gestão dessas políticas pelos entes federados é realizada por meio de soluções digitais – desde sistemas robustos até processos analógicos, como explicitado nesta [pesquisa preliminar](https://drive.google.com/file/d/1xctiK_6SlgjMQFfUjPqLuLH0Z4hFwGit/view?usp=sharing). Entretanto, o cenário de diversidade de sistemas e ferramentas, hoje sem interoperabilidade e integração, torna desafiadora a avaliação unificada e transparente dos impactos da política.
 
-Este repositório compreende a documentação de uma Arquitetura de Dados para a PNAB, incluindo uma Modelagem Entidade-Relacionamento (MER), padrões, dicionários e painéis de dados. Além disso, oferece orientações e propostas para interoperabilidade no ecossistema de soluções digitais que executam essa política pública. O objetivo é integrar os dados culturais gerados por estados e municípios, promovendo uma avaliação transparente e eficiente, tanto para gestores quanto para a sociedade civil.
+Este repositório compreende a documentação de uma Arquitetura de Dados para a PNAB, incluindo uma Modelagem Entidade-Relacionamento (MER), padrões, dicionários e paineis de dados. Além disso, oferece orientações e propostas para interoperabilidade no ecossistema de soluções digitais que executam essa política pública. O objetivo é integrar os dados culturais gerados por estados e municípios, sobretudo no âmbito da PNAB, promovendo uma avaliação transparente e eficiente, tanto para gestores quanto para a sociedade civil.
 
-Este repositório compreende alguns dos produtos do projeto **Qualificação do Ecossistema de Soluções Digitais para Mapeamento e Gestão Cultural**, no âmbito do Termo de Execução Descentralizada (TED) **00000**, firmado entre o Ministério da Cultura (MinC) e a Fundação da Universidade Federal do Paraná (FUNPAR). As pessoas diretamente envolvidas na consolidação deste repositório são:
+Este repositório compreende alguns dos produtos do projeto Qualificação do Ecossistema de Soluções Digitais para Mapeamento e Gestão Cultural, executado por meio do Termo de Execução Descentralizada (TED) GSE Id 1733, firmado entre o Ministério da Cultura (MinC) e a Universidade Federal do Paraná (UFPR). 
+
+As pessoas diretamente envolvidas na consolidação deste repositório são:
+
 
 - **Alexandre Cajazeira** e **Elliott Chaves** - Cientistas de Dados (UFPR) - Modelagem e Desenvolvimento dos produtos de dados do TED;
 - **Uirá Porã** - Analista de Negócio (UFPR) - Supervisão Técnica;
-- **Sofia Mettenheim** e **Juliana Almeida** (SGE/MinC) - Gestão e Acompanhamento.
+- **Sofia Mettenheim** e **Juliana Almeida** (SGE/MinC) - Gestão e Supervisão em Políticas Culturais;
+- **Alexandre Santos (SGE/MinC)** - Orientação em Políticas Culturais.
 
-A proposta de **Arquitetura de Dados** aqui apresentada é fundamental para a padronização e integração dos sistemas. Ela busca garantir que todas as plataformas de gestão cultural compartilhem um modelo de dados comum, permitindo análises mais precisas e centralizadas. O sistema Mapas Culturais foi utilizado como base para a arquitetura proposta, pois constitue uma plataforma consistente e robusta para a execução da política. Além disso, a interação entre sistemas e etapas de gestão orçamentária foi contemplada, envolvendo o **TransfereGov** e o **Plano Anual de Aplicação de Recursos (PAAR)**. 
+A proposta de **Arquitetura de Dados** aqui apresentada é fundamental para a padronização e integração dos sistemas. Ela busca garantir que todas as plataformas de gestão cultural compartilhem um modelo de dados comum, permitindo análises mais precisas e centralizadas. O sistema Mapas Culturais foi utilizado como base para a arquitetura proposta, pois constitui uma plataforma consistente e amplamente utilizada para a execução da política. Além disso, a interação entre sistemas e etapas de gestão orçamentária foi contemplada, envolvendo o **TransfereGov** e o **Plano Anual de Aplicação de Recursos (PAAR)**. 
 
-A criação desta arquitetura segue etapas de análise de requisitos, modelagem e implementação de soluções digitais, além da elaboração de painéis para visualização de indicadores culturais, oferecendo uma base sólida para o monitoramento eficiente da política pública. A figura a seguir ilustra este processo.
+A criação desta arquitetura segue etapas de análise de requisitos, modelagem e implementação de soluções digitais, além da elaboração de paineis para visualização de indicadores culturais, oferecendo uma base sólida para o monitoramento eficiente da política pública. A figura a seguir ilustra este processo.
 
 <center> <b>Figura 1: Fluxo de atividades relacionadas aos produtos descritos neste repositório.</b></center>
 
@@ -27,10 +31,19 @@ A criação desta arquitetura segue etapas de análise de requisitos, modelagem 
 
 ## Como este repositório está dividido? 
 
-A **[seção 2.1](2_1_Fluxo_Informacao_PNAB.md)** explora o fluxo de informações da PNAB, adotando uma abordagem top-down. Foi realizada uma análise do conjunto normativo relacionado à política, uma análise do ecossistema de soluções digitais, com foco no sistema Mapas Culturais e, em seguida, uma análise do fluxo de execução orçamentária, mapeando possíveis integrações com o *TransfereGov* e o *Plano Anual de Aplicação de Recursos (PAAR)*. A **[seção 2.2](2_2_1_MER_Definicao.md)** explora o conceito de Modelagem Entidade Relacionamento (MER) e apresenta o MER PNAB, constituindo uma perspectiva simples e direta do fluxo de informações da política para que diferentes sistemas possam implementar o padrão de dados. A seguir, a **[seção 2.3](2_3_Entidades_Dicionarios.md)** compreende um dicionário de dados para cada entidade PNAB, destacando as características e atributos fundamentais ao padrão de dados e à interoperabilidade. Por fim, a **[seção 2.4](2_4_Analise_paineis_dados.md)** explora o tratamento e análise dos dados a partir do padrão proposto, documentando possíveis painéis de indicadores e orientações para visualização e disponibilização do conjunto de dados PNAB. O referencial normativo/legal utilizado na construção deste repositório está listado ao final deste documento, como também nos documentos e recursos disponíveis em cada seção.
+A **[seção 2.1](2_1_Fluxo_Informacao_PNAB.md)** explora o fluxo de informações da PNAB, adotando uma abordagem top-down. Foi realizada uma análise do conjunto normativo relacionado à política, uma análise do ecossistema de soluções digitais, com foco no sistema Mapas Culturais e, em seguida, uma análise do fluxo de execução orçamentária, mapeando possíveis integrações com o TransfereGov e o Plano Anual de Aplicação de Recursos (PAAR). 
 
+A **[seção 2.2](2_2_1_MER_Definicao.md)** explora o conceito de Modelagem Entidade Relacionamento (MER) e apresenta o MER PNAB, constituindo uma perspectiva simples e direta do fluxo de informações da política para que diferentes sistemas possam implementar o padrão de dados. 
 
-Acesse e confira a documentação disponível para cada componente deste repositório: 
+A seguir, a **[seção 2.3](2_3_Entidades_Dicionarios.md)** compreende um dicionário de dados para cada entidade PNAB, destacando as características e atributos fundamentais ao padrão de dados e à interoperabilidade. 
+
+A **[seção 2.4](2_4_Analise_paineis_dados.md)** explora o tratamento e análise dos dados a partir do padrão proposto, documentando possíveis painéis de indicadores e orientações para visualização e disponibilização do conjunto de dados PNAB. 
+
+Por fim, a seção 2.5 apresenta orientações para adesão deste padrão de dados a partir de diferentes cenários possíveis. 
+
+O referencial normativo/legal utilizado na construção deste repositório está listado ao final deste documento, como também nos documentos e recursos disponíveis em cada seção.
+Acesse e confira a documentação disponível para cada componente deste repositório:
+
 
 ###  [2.1 Fluxo da Informação relacionada à PNAB baseado em uma abordagem Top-Down](2_1_Fluxo_Informacao_PNAB.md)
 #### [2.1.1 Análise do ecossistema de soluções digitais, com foco no Mapas Culturais](2_1_1_Analise_Ecossistema.md)
