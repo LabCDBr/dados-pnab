@@ -1,4 +1,15 @@
 ### 2.1.3 Mecanismo de acompanhamento e execução da política pública e sua consequente prestação de informações
+
+<div>
+<p>
+Com a vigência do Marco Legal da Cultura e a Política Nacional Aldir Blanc, se faz necessário contemplar estruturas adicionais
+para a acompanhar a execução de ações e atividades da Política Pública. Para tanto, a aplicação de conceitos de gerenciamento de projetos
+se tornam desejáveis para a concepção de propostas que descrevam um cronograma de execução de atividades, bem como a articulação
+do uso dos recursos orçamentários e entregáveis relacionados, por intermédio de um Plano de Trabalho, por exemplo, na ferramenta
+Mapas. Para isso, se faz necessário o entendimento do acoplamento do fluxo de dados que acompanham a definição do orçamento de um Ente
+e a sua execução pelo próprio ou por um outro Ente da Federação (Federal - Estados, Federal - Municípios, Estados - Estado, Estado - Municípios, Município - Município).
+</p>
+</div>
  <div>
 <p>
 A partir da definição das atividades descritas no PAAR, ouvida a sociedade civil, estes podem ser habilitados por intermédio dos instrumentos legais atinentes sejam estes chamamentos públicos, credenciamentos, licitações e contratos, por exemplo.
