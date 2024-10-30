@@ -17,8 +17,37 @@ A proposta de <b>Arquitetura de Dados da PNAB</b> é o núcleo da padronização
 Esta arquitetura considera a integração entre sistemas, bem como os fluxos de dados associados, como o <b>TransfereGov, o Plano Anual de Aplicação de Recursos (PAAR) e a ferramenta Mapas Culturais (Mapas). </b> Atualmente não existe integração entre os sistemas em questão, mas se faz neessária o entendimento dos fluxos, haja vista a forte relação entre os gestão dos recursos orçamentários e o monitoramento da execução da política cultural.
 </p>
 <p>
-Esta arquitetura é uma perspectiva do <b> Sistema Nacional de Informações da Cultura (SNIIC) </b>, possuindo uma implementação no Mapas. Para viabilizar a extração de informações relacionados aos dados na PNAB no Mapas, se faz necessária a utilização de consultas baseada em <i>Structured Query Language </i> (SQL).
-O processo de criação de uma arquitetura de dados depende de um conjunto de etapas.  Na Figura 1 é apresentanda uma visão geral do processo de criação de uma proposta de arquitetura e uma visualização de dados. Para tanto, é necessário realizar a análise de requisitos, modelagem e implementação e a criação de painéis gráficos para apresentação dos indicadores. Essas etapas estão diretamente relacionados as entregas realizadas pela Equipe de Dados.
+Esta arquitetura é uma perspectiva do <b> Sistema Nacional de Informações da Cultura (SNIIC)</b>, possuindo uma implementação no Mapas. Para viabilizar a extração de informações relacionados aos dados na PNAB no Mapas, se faz necessária a utilização de consultas baseada em <i>Structured Query Language </i> (SQL).
+O processo de criação de uma arquitetura de dados depende de um conjunto de etapas.
+</p>
+<p>
+Inicialmente se faz necessário o entendimento da tecnologia disponível no contexto do SNIIC. Como já citado, a aplicação Mapas desempenha
+papel fundamental na agregação, sistematização e disponibilização de uma mídia digital de publicação de ações culturais no cenário
+nacional e internacional.
+</p>
+<p>
+Com enfoque na representação da informação, é realizada uma análise do banco de dados existente a afim de definir quais e
+como estão definidas tais Entidades.
+</p>
+<p>
+Após o entendimento, é possível realizar a agregação, remoção ou modificação das estruturas existentes (Entidades) com o intuito de adicionar
+novas funcionalidades e/ou representações desejadas, tal qual da <b>PNAB</b>. Com a representação da informação realizada,
+é possível criar Visões (<B>Views</B>), possibilitando apresentar/representar um conjunto de entidades de maneira consolidada.
+</p>
+<p>
+De forma a documentar as Visões, a aplicação de representações gráficas demonstram uma grande efetividade, sendo a utilização da técnica de Modelagem Entidade Relacionamento (<b>MER</b>) uma destas.
+O MER permite a definição das Entidades e os relacionamentos entre estas na forma de elementos gráficos, facilitando a modelagem lógica. Tal modelagem da Arquitetura pode ser visualizada na Seção ZZ.
+</p>
+<p>
+Definidas as Entidades e os relacionamentos, se faz necessário a definição das características (Atributos) que compõe tais elementos.
+Um instrumento de grande valia é a utilização de Dicionários de Dados.
+</p>
+<p>
+Este enfoque de visualização permite a criação de interfaces com atores internos e/ou externos, sejam por requisições diretas (ODBC)
+ou representações utilizando <i>Javascript Object Notation</i> (<b>JSON</b>), desenvolvendo assim o conceito de <b>Interoperabilidade</b> que é apresentado na Seção XX.
+</p>
+<p>
+Na Figura 1 é apresentanda uma visão geral do processo de criação de uma proposta de arquitetura e uma visualização de dados. Para tanto, é necessário realizar a análise de requisitos, modelagem e implementação e a criação de painéis gráficos para apresentação dos indicadores. Essas etapas estão diretamente relacionados as entregas realizadas pela Equipe de Dados.
 </p>
 </div>
 <br>
