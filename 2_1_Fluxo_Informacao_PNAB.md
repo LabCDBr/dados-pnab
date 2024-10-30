@@ -66,5 +66,13 @@ A arquitetura proposta viabilizará a <b>interoperabilidade</b> entre os diverso
 <div><p>A partir do levantamento de requisitos e da inter-relação com o fluxo do plano de trabalho é possível 
 definir estruturas adicionais para a execução do fluxo de dados e informações relacionadas à PNAB, mapeadas baseadas no ciclo do recurso orçamentário destinado às ações culturais, sua execução e consequente prestação de informações.</p></div>
 
-São definidos três blocos principais para a modelagem atual: [(I) o repasse do recurso orçamentário, a partir do Governo Federal, (II) o refinamento e granularização de sua aplicação utilizando o Plano Anual de Aplicação de Recursos (PAAR) pelo ente federado](2_1_2_TransfereGov_PAAR.md) e [(III) o acoplamento ao mecanismo de acompanhamento e execução da política pública e sua consequente prestação de informações por intermédio do Mapas Culturais](2_1_3_Proposta_PNAB_Mapas.md).
+Com o intuito de realizar uma estensão da representação da informação da PNAB na ferramenta de referência Mapas, a [Seção 2.1.1](2_1_1_Analise_Ecossistema.md)
+realiza a análise da situação das normativas vigentes que norteiam e definem os mecanismos da execução da política pública e as informações
+ensejadas pelo Ministério da Cultura (MinC). 
+
+A [Seção 2.1.2](2_1_2_TransfereGov_PAAR.md) apresenta uma análise do fluxo orçamentário a partir do Governo Federal 
+[(I)](2_1_2_TransfereGov_PAAR.md#i-do-repasse-do-recurso-orçamentário-da-união), [(II)](2_1_2_TransfereGov_PAAR.md#ii-da-granularização-da-aplicação-dos-recursos-com-o-paar) 
+o refinamento e granularização de sua aplicação utilizando o Plano Anual de Aplicação de Recursos (PAAR) pelo ente federado e 
+a [Seção 2.1.3](2_1_3_Proposta_PNAB_Mapas.md) o acoplamento ao mecanismo de acompanhamento e execução da política pública 
+e sua consequente prestação de informações por intermédio do Mapas Culturais.
 

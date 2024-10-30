@@ -1,4 +1,4 @@
-### III. Mecanismo de acompanhamento e execução da política pública e sua consequente prestação de informações
+### 2.1.3 Mecanismo de acompanhamento e execução da política pública e sua consequente prestação de informações
  <div>
 <p>
 A partir da definição das atividades descritas no PAAR, ouvida a sociedade civil, estes podem ser habilitados por intermédio dos instrumentos legais atinentes sejam estes chamamentos públicos, credenciamentos, licitações e contratos, por exemplo.

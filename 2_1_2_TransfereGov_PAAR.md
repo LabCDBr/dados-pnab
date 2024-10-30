@@ -1,5 +1,8 @@
 ### 2.1.2 - Análise do fluxo de execução orçamentária da PNAB, mapeando integrações com TranfereGov e com o Plano Anual de Aplicação de Recursos - PAAR
 
+Esta seção trata das etapas de definição da alocação de recursos no Governo Federal no TransfereGov e sua granularização
+por intermédio do documento auxiliar PAAR.
+
 #### I. Do repasse do recurso orçamentário da União
 <div>
 <p>
