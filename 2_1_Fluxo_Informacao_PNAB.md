@@ -66,9 +66,11 @@ A arquitetura proposta viabilizará a <b>interoperabilidade</b> entre os diverso
 <div><p>A partir do levantamento de requisitos e da inter-relação com o fluxo do plano de trabalho é possível 
 definir estruturas adicionais para a execução do fluxo de dados e informações relacionadas à PNAB, mapeadas baseadas no ciclo do recurso orçamentário destinado às ações culturais, sua execução e consequente prestação de informações.</p></div>
 
-Com o intuito de realizar uma estensão da representação da informação da PNAB na ferramenta de referência Mapas, a [Seção 2.1.1](2_1_1_Analise_Ecossistema.md)
+Com o intuito de realizar uma extensão da representação da informação da PNAB na ferramenta de referência Mapas, a [Seção 2.1.1](2_1_1_Analise_Ecossistema.md)
 realiza a análise da situação das normativas vigentes que norteiam e definem os mecanismos da execução da política pública e as informações
-ensejadas pelo Ministério da Cultura (MinC). 
+ensejadas pelo Ministério da Cultura (MinC). Ainda no aspecto normativo, realiza a definição dos termos de Ação Cultural e 
+Agente Cultural, por exemplo, e os Instrumentos de Fomento indispensáveis para a modelagem destes a partir do Marco Reculatório da Cultura. 
+No caráter técnico da análise de sistemas, descreve e relaciona as Entidades existentes no Mapas, tais como Agente, Oportunidade, Espaços e Eventos.
 
 A [Seção 2.1.2](2_1_2_TransfereGov_PAAR.md) apresenta uma análise do fluxo orçamentário a partir do Governo Federal 
 [(I)](2_1_2_TransfereGov_PAAR.md#i-do-repasse-do-recurso-orçamentário-da-união), [(II)](2_1_2_TransfereGov_PAAR.md#ii-da-granularização-da-aplicação-dos-recursos-com-o-paar) 
